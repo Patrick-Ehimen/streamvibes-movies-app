@@ -1,5 +1,10 @@
+import { Hero } from "../ui";
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <section>
+      <Hero />
+    </section>
+  );
 };
 
 export default Home;
