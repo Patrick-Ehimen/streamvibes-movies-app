@@ -1,5 +1,5 @@
 const MobileNavbar = () => {
-  return <div>MobileNavbar</div>;
+  return <div className="md:hidden flex">MobileNavbar</div>;
 };
 
 export default MobileNavbar;
