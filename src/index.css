@@ -21,3 +21,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.fade {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=141414&c2=878f8b&gt=l&gd=dtt
+*/
+  background: #141414;
+  background: linear-gradient(180deg, #141414, #878f8b);
+}
