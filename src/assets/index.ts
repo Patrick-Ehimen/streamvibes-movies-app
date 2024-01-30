@@ -7,6 +7,11 @@ import MobileLogo from "./mobile-view/logoMobile.svg";
 import PlayIcon from "./playIcon.svg";
 import LoadDesktopHeroImg from "./desktop-view/heroImg.png";
 import LoadMobileHeroImg from "./mobile-view/heroImgMobile.png";
+import ActionCarousel from "./action.svg";
+import AdventureCarousel from "./adventure.svg";
+import ComedyCarousel from "./comedy.svg";
+import DramaCarousel from "./drama.svg";
+import HorrorCarousel from "./horror.svg";
 
 export {
   SearchBar,
@@ -18,4 +23,9 @@ export {
   PlayIcon,
   LoadDesktopHeroImg,
   LoadMobileHeroImg,
+  ActionCarousel,
+  AdventureCarousel,
+  ComedyCarousel,
+  DramaCarousel,
+  HorrorCarousel,
 };
