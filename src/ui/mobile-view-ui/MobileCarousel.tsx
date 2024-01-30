@@ -1,6 +1,3 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { useMediaQuery } from "@material-ui/core";
 import { FaArrowRight } from "react-icons/fa";
 
 interface CarouselProps {
@@ -9,11 +6,14 @@ interface CarouselProps {
 
 const MobileCarousel: React.FC<CarouselProps> = ({ items }) => {
   return (
-    <Carousel className="mt-[50px] mx-[50px] justify-center font-manrope md:hidden flex ">
+    <section className="overflow-x-auto mt-[50px] mx-[] font-manrope md:hidden flex ">
       {items.map((item, index) => (
-        <div key={index} className="mx-[15px] bg-[#262626] p-3 rounded-lg ">
-          <img src={item.img} alt={item.title} className="md:w-[150px] " />
-          <div className="bg-gradient-to-b from-[#141414] h-[9px] flex " />{" "}
+        <div
+          key={index}
+          className="mx-[10px] bg-[#262626] p-3 rounded-lg w-[200px] "
+        >
+          <img src={item.img} alt={item.title} className="w-[300px]" />
+          <div className="bg-gradient-to-b from-[#141414] h-[9px] flex" />{" "}
           <div className="flex">
             <h2>{item.title}</h2>
             <div className="flex justify-end my-[5px] ">
@@ -22,7 +22,7 @@ const MobileCarousel: React.FC<CarouselProps> = ({ items }) => {
           </div>
         </div>
       ))}
-    </Carousel>
+    </section>
   );
 };
 
