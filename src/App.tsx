@@ -5,7 +5,7 @@ import { Navbar, Footer, MobileNavbar, MobileFooter } from "./ui";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-[#1a1a1a9a]">
       <Navbar />
       <MobileNavbar />
 
