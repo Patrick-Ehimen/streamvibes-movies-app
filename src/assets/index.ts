@@ -18,6 +18,8 @@ import Laptop from "./laptop.svg";
 import Phone from "./phone.svg";
 import Tv from "./tv.svg";
 import Vr from "./vr.svg";
+import Minus from "./minus.svg";
+import Plus from "./plus.svg";
 
 export {
   SearchBar,
@@ -40,4 +42,6 @@ export {
   Tv,
   Vr,
   Tablet,
+  Minus,
+  Plus,
 };
