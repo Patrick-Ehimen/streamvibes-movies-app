@@ -61,7 +61,7 @@ const Hero = () => {
           movies and shows on demand, anytime, anywhere
         </div>
         {/* Button to start watching */}
-        <Button image={PlayIcon} text="Start Watching Now" />
+        <Button image={PlayIcon} text="Start Watching Now" className="" />
       </div>
     </section>
   );
