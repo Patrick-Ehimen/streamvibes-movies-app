@@ -1,11 +1,14 @@
 interface ButtonProps {
   text: string;
   image: string;
+  className: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ text, image }) => {
+const Button: React.FC<ButtonProps> = ({ text, image, className }) => {
   return (
-    <button className="bg-[#E50000] text-white flex rounded-md my-[30px] font-manrope">
+    <button
+      className={`bg-[#E50000] text-white curosr-pointer flex rounded-md my-[30px] font-manrope ${className}`}
+    >
       {image && (
         <img
           src={image}
