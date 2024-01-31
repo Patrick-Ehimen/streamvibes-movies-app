@@ -8,3 +8,5 @@ export { default as HomeMovieCategory } from "./home-ui/HomeMovieCategory";
 export { default as Carousel } from "./Carousel";
 export { default as HomeCarousel } from "./home-ui/HomeCarousel";
 export { default as MobileCarousel } from "./mobile-view-ui/MobileCarousel";
+export { default as DeviceAccess } from "./DeviceAccess";
+export { default as Faq } from "./Faq";
