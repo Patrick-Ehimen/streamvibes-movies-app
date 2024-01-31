@@ -30,3 +30,12 @@ body {
   background: #141414;
   background: linear-gradient(180deg, #141414, #878f8b);
 }
+
+.consolFade {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=441010&c2=010101&gt=r&gd=dtr
+*/
+  background: #441010;
+  background: radial-gradient(at right top, #441010, #010101);
+}
