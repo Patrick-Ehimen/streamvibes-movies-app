@@ -12,6 +12,12 @@ import AdventureCarousel from "./adventure.svg";
 import ComedyCarousel from "./comedy.svg";
 import DramaCarousel from "./drama.svg";
 import HorrorCarousel from "./horror.svg";
+import Console from "./console.svg";
+import Tablet from "./tablet.svg";
+import Laptop from "./laptop.svg";
+import Phone from "./phone.svg";
+import Tv from "./tv.svg";
+import Vr from "./vr.svg";
 
 export {
   SearchBar,
@@ -28,4 +34,10 @@ export {
   ComedyCarousel,
   DramaCarousel,
   HorrorCarousel,
+  Console,
+  Laptop,
+  Phone,
+  Tv,
+  Vr,
+  Tablet,
 };
