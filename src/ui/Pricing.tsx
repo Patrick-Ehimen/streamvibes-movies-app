@@ -26,7 +26,7 @@ const Pricing = () => {
             entertainment!
           </p>
         </div>
-        <div className="md:mx-[50px] mr-[130px] flex mt-[10px] rounded-lg bg-[#0F0F0F] border border-[#262626] md1:p-[15px] p-[10px]">
+        <div className="md:mx-[50px] mr-[130px] flex mt-[10px] md:h-fit w-fit rounded-lg bg-[#0F0F0F] border border-[#262626] md1:p-[15px] p-[10px]">
           <div
             className={`px-[15px] p-[10px] cursor-pointer ${
               selectedPlan === "monthly" ? "bg-[#1F1F1F] rounded-lg" : ""
@@ -46,7 +46,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="md:grid grid-cols-3 gap-4 mt-[50px] md1:mx-[100px] md:mx-[50px] mx-[20px]">
+      <div className="md1:grid grid-cols-3 gap-4 mt-[50px] md1:mx-[100px] md:mx-[50px] mx-[20px]">
         {pricingPlan.map((plan) => (
           <div
             key={plan.id}
@@ -67,16 +67,16 @@ const Pricing = () => {
                 {selectedPlan === "monthly" ? "/month" : "/year"}
               </div>
             </div>
-            <div className="flex md:flex-col md1:flex-row">
+            <div className="flex flex-col md:flex-row md1:flex-col lg:flex-row">
               <Button
                 text="Free Trial"
                 image=""
-                className="bg-[#141414] border border-[#262626] pr-[5px] pl-[10px] mb-[0px]"
+                className="bg-black border border-[#262626] pr-[5px] pl-[10px] w-fit my-[3px] lg:my-[30px] "
               />
               <Button
                 text="Paid Plan"
                 image=""
-                className="lg:ml-[5px] ml-[2px] border border-red-700 pr-[5px] pl-[10px]"
+                className="lg:ml-[5px] ml-[2px] border border-red-700 pr-[5px] w-fit pl-[10px] my-[2px] lg:my-[30px]"
               />
             </div>
           </div>
