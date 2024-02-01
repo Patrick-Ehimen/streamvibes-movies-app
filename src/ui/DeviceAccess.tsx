@@ -22,7 +22,7 @@ const DeviceAccess = () => {
             className="border m-[10px] border-[#262626] rounded-lg p-5  consolFade"
           >
             <div className="flex">
-              <div className="mx-2 bg-[#1F1F1F] p-2 rounded-md border-[#262626]">
+              <div className="mx-2 bg-[#1F1F1F] p-2 rounded-md border-[#262626] border ">
                 <img src={item.img} alt={item.title} />
               </div>
               <h2 className="py-[5px] text-xl font-semibold">{item.title}</h2>
