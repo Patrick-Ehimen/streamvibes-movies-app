@@ -20,6 +20,9 @@ import Tv from "./tv.svg";
 import Vr from "./vr.svg";
 import Minus from "./minus.svg";
 import Plus from "./plus.svg";
+import Line from "./line.svg";
+import BgIMg from "./bgImage.jpg";
+import BgImgPhone from "./bgImgPhone.svg";
 
 export {
   SearchBar,
@@ -44,4 +47,7 @@ export {
   Tablet,
   Minus,
   Plus,
+  Line,
+  BgIMg,
+  BgImgPhone,
 };
