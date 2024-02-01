@@ -2,7 +2,7 @@ import { deviceAccess } from "../constants";
 
 const DeviceAccess = () => {
   return (
-    <section className="font-manrope mt-[80px] md:ml-[100px] ml-[20px] mr-[50px]">
+    <section className="font-manrope mt-[80px] md:ml-[80px] ml-[20px] mr-[50px]">
       <div>
         <div className="text-[20px] font-bold">
           We Provide you streaming experience across various devices.
@@ -15,7 +15,7 @@ const DeviceAccess = () => {
         </div>
       </div>
 
-      <div className="mt-[50px] font-monrope md:grid grid-cols-3 gap-4">
+      <div className="mt-[50px] font-monrope md:grid lg:grid-cols-3 md:grid-cols-2 gap-4">
         {deviceAccess.map((item) => (
           <div
             key={item.id}
