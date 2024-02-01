@@ -1,4 +1,13 @@
-import { Hero, HomeMovieCategory, DeviceAccess, Faq, Pricing } from "../ui";
+import {
+  Hero,
+  HomeMovieCategory,
+  DeviceAccess,
+  Faq,
+  Pricing,
+  BgImage,
+  BgImagePhone,
+} from "../ui";
+
 const Home = () => {
   return (
     <section>
@@ -7,6 +16,8 @@ const Home = () => {
       <DeviceAccess />
       <Faq />
       <Pricing />
+      <BgImage />
+      <BgImagePhone />
     </section>
   );
 };
