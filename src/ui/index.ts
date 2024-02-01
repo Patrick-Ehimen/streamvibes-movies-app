@@ -11,3 +11,5 @@ export { default as MobileCarousel } from "./mobile-view-ui/MobileCarousel";
 export { default as DeviceAccess } from "./DeviceAccess";
 export { default as Faq } from "./Faq";
 export { default as Pricing } from "./Pricing";
+export { default as BgImage } from "./home-ui/BgImage";
+export { default as BgImagePhone } from "./mobile-view-ui/BgImagePhone";
