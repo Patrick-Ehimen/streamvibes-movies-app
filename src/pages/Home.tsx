@@ -1,4 +1,4 @@
-import { Hero, HomeMovieCategory, DeviceAccess, Faq } from "../ui";
+import { Hero, HomeMovieCategory, DeviceAccess, Faq, Pricing } from "../ui";
 const Home = () => {
   return (
     <section>
@@ -6,6 +6,7 @@ const Home = () => {
       <HomeMovieCategory />
       <DeviceAccess />
       <Faq />
+      <Pricing />
     </section>
   );
 };
