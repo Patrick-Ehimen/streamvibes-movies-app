@@ -1,5 +1,13 @@
+import { Pricing, BgImage, BgImagePhone } from "../ui";
+
 const Subscriptions = () => {
-  return <div>Subscriptions</div>;
+  return (
+    <section className="md:mt-[200px] mt-[100px]">
+      <Pricing />
+      <BgImage />
+      <BgImagePhone />
+    </section>
+  );
 };
 
 export default Subscriptions;
