@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Home, Movies, Subscriptions, Support } from "./pages";
 
-import { Navbar, Footer, MobileNavbar, MobileFooter } from "./ui";
+import { Navbar, Footer, MobileNavbar } from "./ui";
 
 const App = () => {
   return (
@@ -17,7 +17,6 @@ const App = () => {
       </Routes>
 
       <Footer />
-      <MobileFooter />
     </div>
   );
 };
