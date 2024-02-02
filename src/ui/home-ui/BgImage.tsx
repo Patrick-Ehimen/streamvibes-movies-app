@@ -10,9 +10,9 @@ const BgImage = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="flex-row flex border border-[#262626] rounded-lg"
+        className="flex-row flex border border-[#262626] rounded-lg w-full"
       >
-        <div className="my-[100px]">
+        <div className="my-[100px] ">
           <div className="px-[50px] font-bold text-[25px]">
             Start your free trial today!
           </div>
@@ -20,13 +20,13 @@ const BgImage = () => {
             This is a clear and concise call to action that encourages users to
             sign up for a free trial of StreamVibe.
           </div>
-        </div>
 
-        <Button
-          text="Free Trial"
-          image=""
-          className="w-fit h-fit my-[100px] mx-[100px]"
-        />
+          <Button
+            text="Start Free Trial"
+            image=""
+            className="w-fit h-fit my-[100px] mx-[50px] pl-[10px]"
+          />
+        </div>
       </div>
     </section>
   );
