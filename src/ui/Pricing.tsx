@@ -71,7 +71,7 @@ const Pricing = () => {
               <Button
                 text="Free Trial"
                 image=""
-                className="bg-[#141414] border h-fit border-[#262626] pr-[5px] pl-[10px] w-fit lg:my-[30px] "
+                className="bg-black border h-fit border-[#262626] pr-[5px] pl-[10px] w-fit lg:my-[30px] "
               />
               <Button
                 text="Paid Plan"
