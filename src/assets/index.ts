@@ -24,6 +24,7 @@ import Line from "./line.svg";
 import BgIMg from "./bgImage.jpg";
 import BgImgPhone from "./bgImgPhone.svg";
 import Logo from "./Logo.svg";
+import MoviesPageImage from "./moviesPageImage.svg";
 
 export {
   SearchBar,
@@ -52,4 +53,5 @@ export {
   BgIMg,
   BgImgPhone,
   Logo,
+  MoviesPageImage,
 };
