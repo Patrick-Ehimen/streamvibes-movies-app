@@ -1,5 +1,13 @@
+import { Faq, BgImage, BgImagePhone } from "../ui";
+
 const Support = () => {
-  return <div>Support</div>;
+  return (
+    <section>
+      <Faq />
+      <BgImage />
+      <BgImagePhone />
+    </section>
+  );
 };
 
 export default Support;
