@@ -71,12 +71,12 @@ const Pricing = () => {
               <Button
                 text="Free Trial"
                 image=""
-                className="bg-black border border-[#262626] pr-[5px] pl-[10px] w-fit my-[3px] lg:my-[30px] "
+                className="bg-[#141414] border h-fit border-[#262626] pr-[5px] pl-[10px] w-fit lg:my-[30px] "
               />
               <Button
                 text="Paid Plan"
                 image=""
-                className="lg:ml-[5px] ml-[2px] border border-red-700 pr-[5px] w-fit pl-[10px] my-[2px] lg:my-[30px]"
+                className="lg:ml-[5px] ml-[2px] h-fit border border-red-700 pr-[5px] w-fit pl-[10px] my-[2px] lg:my-[30px]"
               />
             </div>
           </div>
