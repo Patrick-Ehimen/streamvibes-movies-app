@@ -23,6 +23,7 @@ import Plus from "./plus.svg";
 import Line from "./line.svg";
 import BgIMg from "./bgImage.jpg";
 import BgImgPhone from "./bgImgPhone.svg";
+import Logo from "./Logo.svg";
 
 export {
   SearchBar,
@@ -50,4 +51,5 @@ export {
   Line,
   BgIMg,
   BgImgPhone,
+  Logo,
 };
