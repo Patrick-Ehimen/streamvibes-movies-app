@@ -25,6 +25,7 @@ import BgIMg from "./bgImage.jpg";
 import BgImgPhone from "./bgImgPhone.svg";
 import Logo from "./Logo.svg";
 import MoviesPageImage from "./moviesPageImage.svg";
+import ContactImg from "./contactFormImg.svg";
 
 export {
   SearchBar,
@@ -54,4 +55,5 @@ export {
   BgImgPhone,
   Logo,
   MoviesPageImage,
+  ContactImg,
 };
