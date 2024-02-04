@@ -182,3 +182,26 @@ export const pricingPlan = [
     yearlyPricing: "$156.99",
   },
 ];
+
+export const form = [
+  {
+    id: 1,
+    title: "First Name",
+  },
+  {
+    id: 2,
+    title: "Last Name",
+  },
+  {
+    id: 3,
+    title: "Email",
+  },
+  {
+    id: 4,
+    title: "Phone Number",
+  },
+  {
+    id: 5,
+    title: "Message",
+  },
+];
