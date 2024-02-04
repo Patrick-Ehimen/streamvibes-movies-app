@@ -39,3 +39,8 @@ body {
   background: #441010;
   background: radial-gradient(at right top, #441010, #010101);
 }
+
+/* index.css */
+.input-placeholder::placeholder {
+  color: #999; /* Replace 'green' with the exact color code you want */
+}
