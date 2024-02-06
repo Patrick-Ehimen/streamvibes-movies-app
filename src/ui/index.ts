@@ -14,3 +14,4 @@ export { default as Pricing } from "./Pricing";
 export { default as BgImage } from "./home-ui/BgImage";
 export { default as BgImagePhone } from "./mobile-view-ui/BgImagePhone";
 export { default as ContactForm } from "./ContactForm";
+export { default as Table } from "./Table";
