@@ -205,3 +205,48 @@ export const form = [
     title: "Message",
   },
 ];
+
+export const mobilePlansTable = [
+  {
+    id: 1,
+    price: "$9.99/month",
+    freeTrial: "7 days",
+    content:
+      "Access to a wide selection of movies and shows, including some new releases.",
+    devices: "Watch on One device simultaneously",
+    cancelAnytime: "Yes",
+    hdr: "No",
+    dolbyAtoms: "No",
+    adsFree: "No",
+    offlineViewing: "No",
+    familySharing: "No",
+  },
+  {
+    id: 2,
+    price: "$12.99/month",
+    freeTrial: "7 days",
+    content:
+      "Access to a wider selection of movies and shows, including most new releases and exclusive content",
+    devices: "Watch on Two device simultaneously",
+    cancelAnytime: "Yes",
+    hdr: "Yes",
+    dolbyAtoms: "Yes",
+    adsFree: "Yes",
+    offlineViewing: "Yes, for select titles.",
+    familySharing: "Yes, 5 family members.",
+  },
+  {
+    id: 3,
+    price: "$14.99/month",
+    freeTrial: "7 days",
+    content:
+      "Access to a widest selection of movies and shows, including all new releases and Offline Viewing",
+    devices: "Watch on Four device simultaneously",
+    cancelAnytime: "Yes",
+    hdr: "Yes",
+    dolbyAtoms: "Yes",
+    adsFree: "Yes",
+    offlineViewing: "Yes, for all titles",
+    familySharing: "6 family members.",
+  },
+];
