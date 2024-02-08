@@ -1,5 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
-import { DesktopLogo, SearchBar, BellNotification } from "../assets";
+import {
+  DesktopLogo,
+  SearchBar,
+  BellNotification,
+  MobileLogo,
+} from "../assets";
 
 const links = [
   { name: "Home", href: "/" },
@@ -18,6 +23,7 @@ const Navbar = () => {
         <div className="mt-[60px] md:mx-[50px]">
           <Link to="/">
             <img src={DesktopLogo} alt="Logo" className="hidden md:block" />
+            <img src={MobileLogo} alt="Logo" className="md:hidden ml-[20px] " />
           </Link>
         </div>
 
@@ -26,7 +32,7 @@ const Navbar = () => {
             <a
               key={index}
               href={link.href}
-              className={`mx-[px] ${
+              className={`md1:mx-[10px] lg:mx-[7px] ${
                 pathname === link.href
                   ? "bg-[#1F1F1F] p-[10px] my-[10px] rounded-md mx-[4px]"
                   : ""
