@@ -26,8 +26,12 @@ import BgImgPhone from "./bgImgPhone.svg";
 import Logo from "./Logo.svg";
 import MoviesPageImage from "./moviesPageImage.svg";
 import ContactImg from "./contactFormImg.svg";
+import Menu from "./mobile-view/menu.svg";
+import closeMenu from "./mobile-view/closeMenu.svg";
 
 export {
+  Menu,
+  closeMenu,
   SearchBar,
   BellNotification,
   DesktopLogo,
