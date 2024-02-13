@@ -3,7 +3,7 @@ import { Logo } from "../assets";
 const Footer = () => {
   return (
     <footer className=" bg-black">
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-[50px] max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="">
             <img src={Logo} />
