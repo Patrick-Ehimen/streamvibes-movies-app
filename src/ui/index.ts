@@ -16,3 +16,4 @@ export { default as BgImagePhone } from "./mobile-view-ui/BgImagePhone";
 export { default as ContactForm } from "./ContactForm";
 export { default as Table } from "./home-ui/Table";
 export { default as TablePhone } from "./mobile-view-ui/TablePhone";
+export { default as MoviesCarousel } from "./MoviesCarousel";
