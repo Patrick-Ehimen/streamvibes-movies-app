@@ -1,5 +1,11 @@
+import { MoviesCarousel } from "../ui";
+
 const Movies = () => {
-  return <section></section>;
+  return (
+    <section>
+      <MoviesCarousel />
+    </section>
+  );
 };
 
 export default Movies;
