@@ -1,4 +1,5 @@
 import { HomeCarousel } from "../index";
+
 const HomeMovieCategory = () => {
   return (
     <section>
