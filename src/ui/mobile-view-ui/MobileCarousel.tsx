@@ -9,7 +9,10 @@ const MobileCarousel = () => {
         <Carousel slide={false}>
           {/* <div className=""> */}
           {homeCarousel.map((item) => (
-            <div key={item.id} className="bg-[#262626] p-[20px] rounded-xl">
+            <div
+              key={item.id}
+              className="bg-[#262626] border border-[#999] p-[20px] rounded-xl"
+            >
               <img
                 src={item.img}
                 alt={item.title}
