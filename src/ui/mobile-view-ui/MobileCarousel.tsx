@@ -1,5 +1,6 @@
 import { Carousel } from "flowbite-react";
 import { homeCarousel } from "../../constants";
+import { FaArrowRight } from "react-icons/fa";
 
 const MobileCarousel = () => {
   return (
@@ -8,15 +9,20 @@ const MobileCarousel = () => {
         <Carousel slide={false}>
           {/* <div className=""> */}
           {homeCarousel.map((item) => (
-            <div key={item.id} className="bg-[#262626] p-[20px] rounded-b-xl">
+            <div key={item.id} className="bg-[#262626] p-[20px] rounded-xl">
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-96 pt-[15px] rounded-lg"
+                className="w-96 pt-[15px] rounded-b-lg"
               />
-              <p className="text-white text-base py-4 font-bold">
-                {item.title}
-              </p>
+              <div className="flex">
+                <p className="text-white text-base py-4 font-bold">
+                  {item.title}
+                </p>
+                <div className="flex cursor-pointer m-[8px] my-[20px] ">
+                  <FaArrowRight />
+                </div>
+              </div>
             </div>
           ))}
           {/* </div> */}
