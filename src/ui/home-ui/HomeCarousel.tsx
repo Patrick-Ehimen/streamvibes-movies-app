@@ -5,7 +5,7 @@ const ActionCarouselComponent: React.FC = () => {
   return (
     <div>
       <Carousel items={homeCarousel} />
-      <MobileCarousel items={homeCarousel} />
+      <MobileCarousel />
     </div>
   );
 };
