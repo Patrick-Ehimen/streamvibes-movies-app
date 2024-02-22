@@ -24,12 +24,23 @@ import Line from "./line.svg";
 import BgIMg from "./bgImage.jpg";
 import BgImgPhone from "./bgImgPhone.svg";
 import Logo from "./Logo.svg";
-import MoviesPageImage from "./moviesPageImage.svg";
+import Avengers from "./moviesPageImage.svg";
 import ContactImg from "./contactFormImg.svg";
 import Menu from "./mobile-view/menu.svg";
 import closeMenu from "./mobile-view/closeMenu.svg";
+import Kantara from "./kantara.svg";
+import Peaky from "./peakyBlinders.webp";
+import Stranger from "./strangerThings.svg";
+import MobAvenger from "./mobileAvenger.svg";
+import MobKantara from "./mobileKantara.svg";
+import MobStranger from "./mobileStrange.svg";
+import MobPeaky from "./mobilePeaky.webp";
 
 export {
+  MobAvenger,
+  MobKantara,
+  MobStranger,
+  MobPeaky,
   Menu,
   closeMenu,
   SearchBar,
@@ -58,6 +69,9 @@ export {
   BgIMg,
   BgImgPhone,
   Logo,
-  MoviesPageImage,
+  Avengers,
+  Kantara,
   ContactImg,
+  Stranger,
+  Peaky,
 };
