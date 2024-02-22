@@ -1,40 +1,65 @@
-// import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { MoviesPageImage } from "../assets";
+import {
+  Avengers,
+  Kantara,
+  Stranger,
+  Peaky,
+  MobAvenger,
+  MobKantara,
+  MobStranger,
+  MobPeaky,
+} from "../assets";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+const carouselArr = [
+  { id: 1, img: Avengers, img2: MobAvenger },
+  { id: 2, img: Kantara, img2: MobKantara },
+  { id: 3, img: Stranger, img2: MobStranger },
+  { id: 4, img: Peaky, img2: MobPeaky },
+];
 
-import "../index.css";
-
-// import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-
-export default function App() {
+const MoviesCarousel = () => {
   return (
-    <section className="mt-[150px] md:mx-[50px] mx-[20px] mb-[50px] ">
-      <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <SwiperSlide>{MoviesPageImage} </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>{MoviesPageImage} </SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+    <section className="mt-[150px] md:mx-[50px] mx-[20px] mb-[10px] ">
+      <div className="carousel w-full">
+        {carouselArr.map((item, index) => (
+          <div
+            id={`slide${index + 1}`}
+            className="carousel-item relative w-full"
+            key={item.id}
+          >
+            <div className="hidden md:flex">
+              <img
+                src={item.img}
+                className={`${index === 3 ? "rounded-lg" : ""} w-full`}
+              />
+            </div>
+            <div className="md:hidden">
+              <img
+                src={item.img2}
+                className={`${index === 3 ? "rounded-lg" : ""} w-full`}
+              />
+            </div>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a
+                href={`#slide${index === 0 ? carouselArr.length : index}`}
+                className="btn btn-circle"
+              >
+                ❮
+              </a>
+              <a
+                href={`#slide${
+                  index === carouselArr.length - 1 ? 1 : index + 2
+                }`}
+                className="btn btn-circle"
+              >
+                ❯
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="text-red-400 z-30 -mt-[50px] cool">ABCCDDS</div>
     </section>
   );
-}
+};
+
+export default MoviesCarousel;
