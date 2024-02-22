@@ -18,8 +18,8 @@ const carouselArr = [
 
 const MoviesCarousel = () => {
   return (
-    <section className="mt-[150px] md:mx-[50px] mx-[20px] mb-[10px] ">
-      <div className="carousel w-full">
+    <section className="mt-[150px] md:mx-[50px] mx-[20px] mb-[10px] relative">
+      <div className="carousel w-full relative z-10">
         {carouselArr.map((item, index) => (
           <div
             id={`slide${index + 1}`}
@@ -57,7 +57,9 @@ const MoviesCarousel = () => {
           </div>
         ))}
       </div>
-      <div className="text-red-400 z-30 -mt-[50px] cool">ABCCDDS</div>
+      <div className="text-red-400 z-30 -mt-[50px] cool absolute left-36">
+        ABCCDDS
+      </div>
     </section>
   );
 };
