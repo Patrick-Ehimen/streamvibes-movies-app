@@ -2,18 +2,18 @@ import {
   Avengers,
   Kantara,
   Stranger,
-  Peaky,
+  // Peaky,
   MobAvenger,
   MobKantara,
   MobStranger,
-  MobPeaky,
+  // MobPeaky,
 } from "../assets";
 
 const carouselArr = [
-  { id: 1, img: Avengers, img2: MobAvenger },
-  { id: 2, img: Kantara, img2: MobKantara },
-  { id: 3, img: Stranger, img2: MobStranger },
-  { id: 4, img: Peaky, img2: MobPeaky },
+  { id: 1, img: Avengers, img2: MobAvenger, title: "Avengers: Endgame" },
+  { id: 2, img: Kantara, img2: MobKantara, title: "Kantara" },
+  { id: 3, img: Stranger, img2: MobStranger, title: "Stranger Things" },
+  // { id: 4, img: Peaky, img2: MobPeaky },
 ];
 
 const MoviesCarousel = () => {
