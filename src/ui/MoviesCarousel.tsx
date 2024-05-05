@@ -1,4 +1,14 @@
 import {
+  CCarousel,
+  CCarouselItem,
+  CCarouselCaption,
+  CImage,
+} from "@coreui/react";
+
+// import "@coreui/coreui/dist/css/coreui.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+import {
   Avengers,
   Kantara,
   Stranger,
@@ -18,49 +28,29 @@ const carouselArr = [
 
 const MoviesCarousel = () => {
   return (
-    <section className="mt-[150px] md:mx-[50px] mx-[20px] mb-[10px] relative">
-      <div className="carousel w-full relative z-10">
-        {carouselArr.map((item, index) => (
-          <div
-            id={`slide${index + 1}`}
-            className="carousel-item relative w-full"
-            key={item.id}
-          >
-            <div className="hidden md:flex">
-              <img
-                src={item.img}
-                className={`${index === 3 ? "rounded-lg" : ""} w-full`}
-              />
-            </div>
-            <div className="md:hidden">
-              <img
-                src={item.img2}
-                className={`${index === 3 ? "rounded-lg" : ""} w-full`}
-              />
-            </div>
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a
-                href={`#slide${index === 0 ? carouselArr.length : index}`}
-                className="btn btn-circle"
-              >
-                ❮
-              </a>
-              <a
-                href={`#slide${
-                  index === carouselArr.length - 1 ? 1 : index + 2
-                }`}
-                className="btn btn-circle"
-              >
-                ❯
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="text-red-400 z-30 -mt-[50px] cool absolute left-36">
-        ABCCDDS
-      </div>
-    </section>
+    <CCarousel controls indicators>
+      <CCarouselItem>
+        <CImage className="d-block w-100" src={Avengers} alt="slide 1" />
+        <CCarouselCaption className="d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </CCarouselCaption>
+      </CCarouselItem>
+      <CCarouselItem>
+        <CImage className="d-block w-100" src={Kantara} alt="slide 2" />
+        <CCarouselCaption className="d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </CCarouselCaption>
+      </CCarouselItem>
+      <CCarouselItem>
+        <CImage className="d-block w-100" src={Stranger} alt="slide 3" />
+        <CCarouselCaption className="d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </CCarouselCaption>
+      </CCarouselItem>
+    </CCarousel>
   );
 };
 
